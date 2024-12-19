@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Irma Magalashvili</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <h1>Irma Magalashvili</h1>
+        <p>Front-End Developer | Problem Solver | Tech Enthusiast</p>
+        <div class="nav-header">
+          <div class="logo">
+            <a href="#"><img src="assets/images/logo.png" alt="IrmaLogo" /></a>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <span class="burger" onclick="toggleMenu()">☰</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Hello! I’m a passionate Front-End Developer with expertise in creating
+          responsive and interactive websites. I enjoy solving complex problems
+          and turning ideas into reality through code.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <a
+          href="https://github.com/irmamaghalashvili/irma-maghalashvili-final_project"
+          target="_blank">
+          <h3>HTML site build</h3>
+        </a>
+        <p>
+          For the final project of my front-end development course, I crafted a
+          site with HTML5, CSS, and JavaScript. Designed to showcase my
+          skills, this project reflects my commitment to creating engaging
+          and functional web experiences.
+        </p>
+        <video
+          src="./assets/images/video11.mp4" controls
+        ></video>
+      </div>
+      
+      <div class="project-card">
+        <a href="https://gitlab.com/irmamaghalashvili/irma" target="_blank">
+          <h3>capstone project</h3>
+        </a>
+        <p>
+          As part of the EPAM Upskill Course, I crafted a dynamic React.js
+          portfolio page, showcasing my proficiency in front-end
+          development. With a focus on reusable components, I ensured a
+          scalable structure and implemented a modern, responsive design.
+          This project serves as a capstone, offering hands-on React.js
+          experience and exemplifying my commitment to creating visually
+          appealing web applications.
+        </p>
+        <video
+          src="./assets/images/React.mp4" controls
+        ></video>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <ul class="contact-info-ul">
+            <li>
+              <i class="fas fa-phone"></i>
+              <span>Phone: +995 577 380 381</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:imghalashvili@gmail.com">imghalashvili@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Address: Georgia, Gori, Kote Afxazi Str. N8</span>
+            </li>
+          </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10859.056517557501!2d44.110771814824275!3d41.98367008275703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40449ea06faca507%3A0xefe8902458a375a1!2sGori!5e1!3m2!1sen!2sge!4v1734636655113!5m2!1sen!2sge" width="100%" height="250" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="#" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Irma Magalashvili. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="./assets/js/burgerBar.js"></script>
+  </body>
+</html>
